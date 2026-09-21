@@ -27,7 +27,7 @@ public class Employee {
     @Column(name = "keycloak_id", nullable = false, unique = true)
     private String keycloakId;
 
-    @Column(name = "full_name", nullable = false)
+    @Column(name = "full_name")
     private String fullName;
 
     @Enumerated(EnumType.STRING)
